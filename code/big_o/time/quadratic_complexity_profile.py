@@ -23,6 +23,6 @@ profiler.run_time_analysis(
     gen_min_arg=10,
     gen_max_arg=1000,
     gen_steps=50,
-    iterations=20,
-    draw_chart=True
+    iterations=7,
+    find_big_o=True
 )

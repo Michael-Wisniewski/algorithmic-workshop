@@ -15,5 +15,5 @@ profiler.run_time_analysis(
     gen_max_arg=10000000000,
     gen_steps=100,
     iterations=10,
-    draw_chart=True
+    find_big_o=True
 )

@@ -13,8 +13,8 @@ profiler.run_time_analysis(
     func=get_latst_number,
     data_gen=data_gen,
     gen_min_arg=10,
-    gen_max_arg=1000,
+    gen_max_arg=100,
     gen_steps=10,
     iterations=100,
-    draw_chart=True
+    find_big_o=True
 )
