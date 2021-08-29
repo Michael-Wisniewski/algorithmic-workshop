@@ -7,7 +7,6 @@ def find_permutations(items):
         new_items = []
 
         for item in items:
-
             for j in range(i, n):
                 new_item = deepcopy(item)
                 temp = new_item[i]
