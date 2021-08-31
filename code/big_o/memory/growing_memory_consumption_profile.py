@@ -1,6 +1,6 @@
 from algo_profiler import Profiler
 
-from constant_memory_consumption import increment_by_one
+from growing_memory_consumption import increment_by_one
 
 
 def data_gen(list_length):
@@ -21,5 +21,5 @@ profiler = Profiler()
 profiler.run_time_based_memory_usage(
     func=increment_by_one,
     kwargs=data_gen(10000000),
-    interval=0.001
+    interval=0.0001
 )
